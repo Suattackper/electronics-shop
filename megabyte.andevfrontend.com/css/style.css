@@ -194,6 +194,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
   /* 1 */
   outline-offset: -2px;
   /* 2 */
+  color: #efefef;
 }
 
 /*
@@ -2439,9 +2440,9 @@ select{
 
 :root {
   /* Enter the color value, it must be RGB */
-  --color-R: 0;
-  --color-G: 173;
-  --color-B: 219;
+  --color-R: 148;
+  --color-G: 171;
+  --color-B: 212;
   /* Automatic calculation: dark color, you can adjust the value (0.70) */
   --color-Rd: calc(var(--color-R) * 0.7);
   --color-Gd: calc(var(--color-G) * 0.7);

@@ -455,7 +455,6 @@
       </nav>
     </div>
   </header>
-
   <div class="login-section container mx-auto my-5 px-2 sm:px-8">
     <div class="mx-auto max-w-[500px] rounded-lg bg-white p-5">
       <div class="my-5">
@@ -465,11 +464,11 @@
         <div class="flex flex-col gap-4">
           <div class="relative flex h-[40px] items-center">
             <i class="bi bi-person absolute ml-2 flex text-[24px] text-gray-400"></i>
-            <input class="input pl-10" type="text" placeholder="Username or Email" required />
+            <input class="input pl-10" type="text" name="email" id="email" placeholder="email" autocomplete="" required />
           </div>
           <div class="relative flex h-[40px] items-center">
             <i class="bi bi-lock absolute ml-2 flex text-[24px] text-gray-400"></i>
-            <input class="input pl-10" type="password" placeholder="Password" required />
+            <input class="input pl-10" type="password" name="password" id="password" placeholder="Password" autocomplete="" required />
           </div>
           <button class="btn-effect transition-all-300 h-full w-full rounded-lg bg-primary-color p-2" type="submit">
             <span class="font-bold uppercase text-white">Login</span>
